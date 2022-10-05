@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const Links = [] // ["", "url", "url"]
 const colors = require("colors") //styles
 
-console.log("Please wait...".green)
+console.log("Please wait...".green) 
 if (Links.length < 1) {
     console.log("No links found.".red)
     return process.exit()
@@ -19,7 +19,7 @@ Links.forEach(async (url) => {
         } catch (error) {
             console.log(`Link :- ${url}・Error :- ${error}\n`.red);
         }
-    }, 10000);
+    }, 10000); // 10 SECONDS
 })
 
 require('http').createServer((req, res) => res.end('Server Started')).listen(2000)
