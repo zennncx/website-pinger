@@ -1,0 +1,11 @@
+{
+  "main": "source/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^2.6.7"
+  }
+}
