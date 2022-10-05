@@ -1,5 +1,5 @@
 const fetch = require("node-fetch");
-const Links = [] // ["url", "url", "url"]
+const Links = [] // ["url", "url", "url", ...]
 const colors = require("colors") //styles
 
 console.log("Please wait...".green) 
